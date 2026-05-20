@@ -1,0 +1,21 @@
+{
+  "name": "node-auth-jwt",
+  "version": "1.0.0",
+  "description": "User authentication system with JWT, bcrypt, and Express.js",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": ["express", "jwt", "authentication", "bcrypt", "rest-api"],
+  "author": "Success Akinwande",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "better-sqlite3": "^9.4.3",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "cors": "^2.8.5",
+    "morgan": "^1.10.0"
+  }
+}
